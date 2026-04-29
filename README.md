@@ -48,11 +48,6 @@ In the Streamlit frontend, this LangGraph state is bridged with `st.session_stat
 
 This project uses **Claude 4.5 Haiku** (`claude-haiku-4-5-20251001`) for its advanced reasoning and efficient processing of agent intents.
 
-### Troubleshooting: Why am I getting a 404 Error?
-If you attempt to use older models, you may encounter an **Anthropic 404 error**. 
-
-In this environment, **Claude 3 series models are returning 404 errors** as they have been superseded by the Claude 4 series. Ensure that `agent/llm.py` is configured to use a supported Claude 4 model identifier.
-
 **Current Valid Model:**
 - `claude-haiku-4-5-20251001`
 
